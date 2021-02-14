@@ -5,9 +5,9 @@ To Run:
 
 Download all files in the repository.
 
-Go to https://cors-anywhere.herokuapp.com/corsdemo, and click the button for a temporary trail
+Go to https://cors-anywhere.herokuapp.com/corsdemo, and click the button for a temporary trial
 
-Open the html file in your browser, and type in any city you would like to see the weather in!
+Open index.html in your browser, and type in any city you would like to see the weather in!
 
 
 
