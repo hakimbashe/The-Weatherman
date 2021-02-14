@@ -1,0 +1,93 @@
+/*
+  SFU Hackathan: Mountain Madness
+  The Weatherman
+  Hakim Bashe, Trevor Pinto, Sumeet Sara
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: "Nunito", sans-serif;
+  background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+}
+
+.logo {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  max-width: 20%;
+  max-height: 45%;
+}
+
+.title {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.input {
+  text-align: center;
+  margin: 100px auto;
+}
+
+input[type="submit"] {
+  padding: 15px 30px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.input input[type="text"] {
+  width: 600px;
+  height: 55px;
+  padding: 5px 10px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card {
+  width: 50%;
+  background: #e7e7e7;
+  height: 40vh;
+  margin: 50px auto;
+  border-radius: 2px;
+}
+
+.close {
+  float: right;
+  margin-top: -2px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.card h1 {
+  padding: 5px 0;
+  text-align: center;
+}
+
+.card p {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 20px;
+}
+
+
+.weather {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  max-width: 16%;
+  max-height: 30%;
+}
